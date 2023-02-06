@@ -1,0 +1,51 @@
+.postmain{
+   
+width: 385px;
+margin: 0px 25px 40px 25px;
+display: flex;
+flex-direction: column;
+}
+.postimg {
+    
+    width: 385px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+  }
+  .postheading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .postdetail{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 15px;
+   color: rgb(151, 107, 107);
+   line-height: 20px;
+   margin-top: 15px;
+   margin-right: 20px;
+   cursor: pointer;
+
+  }
+.posttitle{
+font-family: 'josefin Sans',sans-serif;
+font-size: 20px;
+font-weight: 700;
+margin-top: 15px;
+cursor: pointer;
+}
+.date{
+margin-top: 15px;
+}
+.postdata{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(112, 106, 106);
+    line-height: 20px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}

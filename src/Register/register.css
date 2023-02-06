@@ -1,0 +1,63 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(228, 220, 220, 0.5),
+        rgba(36, 24, 24, 0.5)
+      ),
+      url("https://mdbootstrap.com/img/Photos/Others/images/43.webp");
+    background-size: cover;
+  }
+  
+  .heading {
+    font-size: 50px;
+    color: whitesmoke;
+  }
+  
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .form > label {
+    margin: 10px 0;
+  }
+  
+  .input {
+    padding: 10px;
+    border: none;
+   
+    border-radius: 10px;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .regbutton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .loginButton {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    background-color: rgb(28, 222, 70);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }

@@ -1,0 +1,21 @@
+.blog {
+    text-align: center;
+    font-size: 100px;
+
+    color: darkslategray;
+
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px rgb(11, 156, 200);
+}
+
+.content1 {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.img {
+    width: 100%;
+    object-fit: cover;
+}

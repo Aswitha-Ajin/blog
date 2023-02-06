@@ -1,0 +1,70 @@
+.login {
+ 
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://mdbootstrap.com/img/Photos/Slides/img%20(130).webp");
+    background-size: cover;
+  }
+  
+  .title {
+    
+    font-size: 50px;
+  }
+  .forms1{
+color:black
+  }
+  
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(18, 16, 16);
+  }
+  
+  .form > label {
+    margin: 10px 0;
+  }
+  
+  .input {
+    
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .loginbutton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(21, 197, 74);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .regbuttons {
+    position: absolute;
+    bottom: 15px;
+    background-color: rgb(12, 112, 227);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+  .link{
+color: white;
+  }

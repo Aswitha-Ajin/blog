@@ -1,0 +1,83 @@
+.sidebar{
+    
+    font-family: 'Roboto Mono', monospace; 
+    flex: 3;
+  height: fit-content;
+  margin: 20px;
+  padding-bottom: 30px;
+  background-color: #fdfbfb;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.sidebarheading{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-variant:small-caps;
+    text-align: center;
+    margin: 10px;
+        padding: 5px;
+        width: 80%;
+    font-size: 12px;
+    font-weight: 600;
+      }
+      .sidebarheading > img{
+        margin-top: 15px;
+        width: 250px;
+        height: 250px;
+      }
+      .sidebarheading > p{
+        padding: 30px;
+        
+      }
+      .sidebarkey{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .list {
+        list-style-type: none;
+        margin-bottom: 30px;
+      }
+      
+
+
+
+  
+.items{
+display: inline-block;
+width:  50%;
+margin-top: 15px;
+cursor: pointer;
+}
+
+.sidebaricon{
+font-size: 20px;
+margin-left: 20px;
+display: flex;
+justify-content: center;
+cursor: pointer;
+
+}
+.icons1{
+    color: #3b5998;
+
+}
+.icons2{
+color: #00acee;
+}
+.icons3{
+color: #feda75;
+}
+.icons4{
+color: red;
+}
+.icons5{
+    color: rgb(232, 94, 94);
+    }
+    
